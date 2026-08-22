@@ -7,6 +7,10 @@ Center. The public repository contains product information, documentation,
 support channels, a privacy-safe demo screenshot, and release downloads. The
 complete application source code is not publicly distributed.
 
+GitHub's automatically generated `Source code (zip)` and `Source code (tar.gz)`
+downloads contain only this public documentation/showcase repository. They do
+not contain the application source code.
+
 ## Choose your installer
 
 ### macOS 13 or later

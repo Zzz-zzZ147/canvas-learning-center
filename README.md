@@ -118,6 +118,11 @@ testing**. The complete source code and internal implementation are currently
 not publicly distributed. This repository is a product information, support,
 and official download channel; it is not an open-source source repository.
 
+GitHub automatically adds files labelled `Source code (zip)` and
+`Source code (tar.gz)` to every Release. In this project those archives contain
+only the public documentation, Issue templates, checksum list, and demo image
+from this repository — not the application source code.
+
 Copyright © 2026 ZihengHuang. All rights reserved. See [Terms](TERMS.md).
 
 ## Documentation
