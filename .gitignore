@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+*.tmp
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.p12
+*.pfx
+*.pkg
+*.msi
+*.zip

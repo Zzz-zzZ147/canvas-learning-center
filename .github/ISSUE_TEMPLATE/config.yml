@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private or security-sensitive report
+    url: https://github.com/Zzz-zzZ147/canvas-learning-center/blob/main/SECURITY.md
+    about: Read the private reporting instructions before sending sensitive details.

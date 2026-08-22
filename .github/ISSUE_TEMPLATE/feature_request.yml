@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest a student workflow or Canvas-school adaptation.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explain the student problem first. Do not include credentials, account data, private course material, or personal records.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What student problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful result look like?
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Canvas institution, if relevant
+      description: School name only; do not include account information.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: This request contains no token, personal data, or private course material.
+          required: true
