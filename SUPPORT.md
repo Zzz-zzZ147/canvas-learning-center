@@ -6,3 +6,7 @@
 
 Please do not send Canvas tokens, passwords, student records, grades, teacher
 comments, signed links, private course files, or personal databases.
+
+For a connection or sync failure, select **Export to Downloads** in the app and
+attach the generated diagnostic ZIP to a private support email. The bundle is
+privacy-filtered and does not include the private data listed above.

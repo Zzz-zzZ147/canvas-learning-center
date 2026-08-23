@@ -4,15 +4,15 @@ This guide is written for people who do not normally use developer tools.
 
 ## 1. Choose your download
 
-Open the [v0.2.3 release page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.3),
+Open the [v0.2.4 release page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.4),
 expand **Assets**, and choose one file:
 
 | Your computer | Default language | Filename |
 |---|---|---|
-| Mac | English | `CanvasLearningCenter-0.2.3-macOS-universal-en-UNSIGNED-CANARY.pkg` |
-| Mac | 中文 | `CanvasLearningCenter-0.2.3-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg` |
-| Windows 11 | English | `CanvasLearningCenter-0.2.3-Windows-x64-en-UNSIGNED-CANARY.msi` |
-| Windows 11 | 中文 | `CanvasLearningCenter-0.2.3-Windows-x64-zh-CN-UNSIGNED-CANARY.msi` |
+| Mac | English | `CanvasLearningCenter-0.2.4-macOS-universal-en-UNSIGNED-CANARY.pkg` |
+| Mac | 中文 | `CanvasLearningCenter-0.2.4-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg` |
+| Windows 11 | English | `CanvasLearningCenter-0.2.4-Windows-x64-en-UNSIGNED-CANARY.msi` |
+| Windows 11 | 中文 | `CanvasLearningCenter-0.2.4-Windows-x64-zh-CN-UNSIGNED-CANARY.msi` |
 
 The features are identical. The selected language is only the first-launch
 default; use `EN / 中文` inside the app whenever you want to switch.
@@ -44,7 +44,7 @@ If the values do not match, delete the file and do not open it.
 2. Follow the installer prompts.
 3. Open **Applications** and launch **Canvas Learning Center (Sydney-first beta)**.
 
-The 0.2.3 beta is not yet signed or notarized. Gatekeeper may refuse to open it.
+The 0.2.4 beta is not yet signed or notarized. Gatekeeper may refuse to open it.
 Only if the file came from this official release and its checksum matches:
 
 1. Open **System Settings → Privacy & Security**.
@@ -60,7 +60,7 @@ developer. No Terminal bypass command is required or recommended.
 2. Follow the installation wizard.
 3. Open Canvas Learning Center from the Start menu or desktop shortcut.
 
-The 0.2.3 beta is not yet signed. Microsoft Defender SmartScreen may display a
+The 0.2.4 beta is not yet signed. Microsoft Defender SmartScreen may display a
 warning. Continue only when the filename and checksum match the official
 release. If you are unsure, cancel and contact the developer.
 
@@ -87,3 +87,11 @@ Read [the complete Access Token guide](CANVAS_TOKEN.md) before creating the toke
 Download the newer installer and install it over the existing version. Local
 application data and the saved language choice are designed to remain in place.
 Back up important personal notes before testing a beta update.
+
+## If connection or sync fails
+
+Select **Export to Downloads** on the first-run page or under **System Status**.
+Attach the generated ZIP to a private email to `canvas-center@z-hstudio.com`.
+The bundle contains privacy-filtered technical state, aggregate counts and error
+identifiers. It excludes credentials, names, course content, notes, submissions,
+grades, databases, signed URLs and local paths.

@@ -31,6 +31,18 @@ The local interface is bound to your own computer. The released app does not
 include a third-party analytics or advertising SDK. External Canvas pages and
 links open through your normal browser.
 
+## User-exported diagnostic bundle
+
+The app keeps bounded structured diagnostic events locally. A diagnostic ZIP is
+created only when the user selects **Export to Downloads**. It contains the app
+and operating-system versions, the Canvas institution hostname, aggregate file
+and database counts, a SQLite health result, recent sync status, and structured
+error codes.
+
+It does not include a Canvas token, name, email address, course title or content,
+personal note, submission, grade, signed URL, database, or local file path. The
+app does not upload the ZIP; the user decides whether to send it to support.
+
 ## User responsibility
 
 Only connect an account and download material you are authorised to access.

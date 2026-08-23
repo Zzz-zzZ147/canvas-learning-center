@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.4 — 2026-08-23
+
+- Added one-click privacy-safe diagnostic bundle export to first-run setup and System Status.
+- Replaced generic Canvas connection failures with safe error categories and diagnostic IDs.
+- Included only allowlisted platform, Canvas host, aggregate storage, SQLite health, sync status, and structured event fields.
+- Excluded credentials, identity data, course titles/content, notes, submissions, grades, databases, signed URLs, and local paths from the bundle.
+- Fixed Windows diagnostic-log lifecycle handling found by the Windows CI canary.
+
+Known release limitation: these installers remain unsigned beta canaries and
+may be blocked or warned about by Gatekeeper or SmartScreen.
+
 ## 0.2.3 — 2026-08-22
 
 - Added an in-app `EN / 中文` language switch.
