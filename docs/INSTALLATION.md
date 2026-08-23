@@ -54,6 +54,13 @@ Only if the file came from this official release and its checksum matches:
 If the expected security message or checksum is different, stop and contact the
 developer. No Terminal bypass command is required or recommended.
 
+Because this beta is unsigned, macOS may also ask whether Canvas Learning Center
+may read its existing Canvas credential from Keychain after an update. Continue
+only when the installer came from this Release and its checksum matches. The
+dialog may request your Mac login password; never send that password or the
+Canvas token to the developer. Formal code signing is required to give future
+builds a stable identity and prevent avoidable repeated prompts.
+
 ## 3B. Install on Windows 11 x64
 
 1. Double-click the `.msi` file.

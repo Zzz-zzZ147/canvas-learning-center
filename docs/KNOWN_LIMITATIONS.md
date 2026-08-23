@@ -6,6 +6,11 @@ Version 0.2.8 is an `UNSIGNED-CANARY`. The macOS package is not Apple-notarized,
 and the Windows MSI does not have a trusted Microsoft code-signing identity.
 Gatekeeper or SmartScreen may warn or block it.
 
+An unsigned macOS rebuild does not have a stable Developer ID identity. During
+an update, Keychain may therefore ask the user to approve access to the existing
+Canvas credential again. This is not a request to share the credential with the
+developer; formal signing is still required to remove this avoidable friction.
+
 ## Institution coverage
 
 The current real-world beta has been tested primarily against University of

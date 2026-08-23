@@ -27,4 +27,7 @@ already synchronized to the user's device; no paid runtime model is enabled.
 ## Known issue
 
 All installers are unsigned beta canaries. macOS Gatekeeper or Windows
-SmartScreen may warn or block installation. Verify `SHA256SUMS.txt` before use.
+SmartScreen may warn or block installation. An unsigned macOS update may also
+request Keychain approval again because the build lacks a stable Developer ID
+identity. Verify `SHA256SUMS.txt` before use; never share a Mac login password or
+Canvas token with the developer.
