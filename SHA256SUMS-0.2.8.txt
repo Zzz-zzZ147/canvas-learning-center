@@ -1,0 +1,4 @@
+10d0af6bd0c2e958d7203bffb8b70b07f0f016d1c29a0f1848c611bfc44319d6  CanvasLearningCenter-0.2.8-Windows-x64-en-UNSIGNED-CANARY.msi
+998eb36342f9bbb04b4e35c7a1bc28196583c0bc541531be57a541c3aacf848e  CanvasLearningCenter-0.2.8-Windows-x64-zh-CN-UNSIGNED-CANARY.msi
+8c71faf35237ea9682ea83b96f3b542b9f502fcc30a55ee5bf93db784d36cb16  CanvasLearningCenter-0.2.8-macOS-universal-en-UNSIGNED-CANARY.pkg
+46697b5b9ad83cfbba67bcf53b09eefd5f11128f06d97a3bc385a12da22903a1  CanvasLearningCenter-0.2.8-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg

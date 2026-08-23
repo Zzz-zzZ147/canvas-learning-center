@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.8 — 2026-08-23
+
+- Added local, source-backed automatic knowledge drafts for learning units that
+  do not yet have confirmed knowledge points.
+- Added PDF, HTML, PPTX, Markdown, and text extraction with source locators and
+  conservative limits; unsupported or insufficient material is reported rather
+  than invented.
+- Kept generated drafts out of mastery, coverage, Today, and review queues until
+  the student checks and confirms them.
+- Replaced the unreliable WebView `mailto:` behavior with a visible contact
+  panel offering default mail, Gmail web, and copy-address fallbacks.
+- Clarified the local material location directly beside each unit's source list.
+- Kept read-only Canvas access and the daily incremental material-refresh gate.
+
+Version 0.2.7 is superseded because its direct `mailto:` links did not work in
+some packaged desktop WebViews. Use 0.2.8.
+
+Known release limitation: these installers remain unsigned beta canaries and
+may be blocked or warned about by Gatekeeper or SmartScreen.
+
 ## 0.2.7 — 2026-08-23
 
 - Fixed all macOS installer metadata so the filename, welcome page, package,

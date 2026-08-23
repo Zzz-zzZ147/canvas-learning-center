@@ -2,7 +2,7 @@
 
 ## Unsigned beta packages
 
-Version 0.2.7 is an `UNSIGNED-CANARY`. The macOS package is not Apple-notarized,
+Version 0.2.8 is an `UNSIGNED-CANARY`. The macOS package is not Apple-notarized,
 and the Windows MSI does not have a trusted Microsoft code-signing identity.
 Gatekeeper or SmartScreen may warn or block it.
 
@@ -21,8 +21,12 @@ API access, Access Token availability, and course permissions.
 
 ## Learning content
 
-- Knowledge topics and reference answers require source checking.
-- Courses without a verified knowledge structure show that the structure is pending.
+- Automatic knowledge items are source-backed drafts, not verified answers.
+  They do not affect progress or enter review queues until the student confirms them.
+- Scanned PDFs need OCR, which is not enabled in this release. Restricted,
+  external-only, empty, or insufficient source material cannot generate a draft.
+- A learning unit with no usable local source continues to show that its
+  knowledge structure has not been generated.
 - Runtime paid-model automation is not enabled in this beta.
 
 ## Final authority
