@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.7 — 2026-08-23
+
+- Fixed all macOS installer metadata so the filename, welcome page, package,
+  component, and installed application consistently report version 0.2.7.
+- Limited the default dashboard to courses in the current Canvas teaching term;
+  preserved older local course data without showing portal and exam shells as
+  current courses.
+- Prevented long Canvas course titles from breaking the vertical course ribbon.
+- Replaced the two Feedback actions with direct native `mailto:` links and kept
+  a copy-address fallback.
+- Added release gates that inspect the built macOS PKG and Windows MSI versions.
+
+Version 0.2.6 is superseded because its macOS installer displayed stale internal
+version metadata and its current-course filtering was incomplete. Use 0.2.7.
+
+Known release limitation: these installers remain unsigned beta canaries and
+may be blocked or warned about by Gatekeeper or SmartScreen.
+
 ## 0.2.6 — 2026-08-23
 
 - Fixed stale course material by separating assignment checks from PPT, page, and module synchronization.
