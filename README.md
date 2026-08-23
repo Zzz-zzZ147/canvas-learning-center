@@ -17,7 +17,7 @@ account or institutional data.*
 
 ## Download
 
-Current version: **0.2.5 beta — 23 August 2026**
+Current version: **0.2.6 beta — 23 August 2026**
 
 Choose the package whose first-launch language you prefer. Both editions have
 the same features and can switch language at any time using `EN / 中文` in the
@@ -25,23 +25,23 @@ top-right corner.
 
 | Platform | First-launch language | Download |
 |---|---|---|
-| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.5/CanvasLearningCenter-0.2.5-macOS-universal-en-UNSIGNED-CANARY.pkg) |
-| macOS 13+ (Apple Silicon and Intel) | 中文 | [下载 macOS 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.5/CanvasLearningCenter-0.2.5-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
-| Windows 11 x64 | English | [Download Windows English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.5/CanvasLearningCenter-0.2.5-Windows-x64-en-UNSIGNED-CANARY.msi) |
-| Windows 11 x64 | 中文 | [下载 Windows 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.5/CanvasLearningCenter-0.2.5-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
+| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.6/CanvasLearningCenter-0.2.6-macOS-universal-en-UNSIGNED-CANARY.pkg) |
+| macOS 13+ (Apple Silicon and Intel) | 中文 | [下载 macOS 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.6/CanvasLearningCenter-0.2.6-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
+| Windows 11 x64 | English | [Download Windows English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.6/CanvasLearningCenter-0.2.6-Windows-x64-en-UNSIGNED-CANARY.msi) |
+| Windows 11 x64 | 中文 | [下载 Windows 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.6/CanvasLearningCenter-0.2.6-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
 
-[View the complete v0.2.5 release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.5)
+[View the complete v0.2.6 release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.6)
 · [Installation guide](docs/INSTALLATION.md)
-· [SHA-256 checksums](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.5/SHA256SUMS.txt)
+· [SHA-256 checksums](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.6/SHA256SUMS.txt)
 
-> **Unsigned beta warning:** all 0.2.5 installers are explicitly marked
+> **Unsigned beta warning:** all 0.2.6 installers are explicitly marked
 > `UNSIGNED-CANARY`. They are not yet signed or notarized by Apple or Microsoft,
 > so Gatekeeper or SmartScreen may show a warning or block installation. Read
 > the installation guide and verify the checksum before continuing.
 
 ## Start here
 
-1. Open the [v0.2.5 Releases page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.5).
+1. Open the [v0.2.6 Releases page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.6).
 2. Download the installer for your operating system and preferred first-launch language.
 3. Follow the [macOS or Windows installation steps](docs/INSTALLATION.md).
 4. Sign in to your own institution's Canvas website and create your own Access Token.
@@ -76,6 +76,14 @@ For the full token walkthrough, read [Create and protect your Canvas Access Toke
 - A file inbox for downloaded course material
 - A personal knowledge library for user-added notes and files
 - Local search and links between files, courses, modules, and knowledge points
+- Visible local storage paths with a safe **Open folder** action
+
+### Keep accessible Canvas material current
+
+- Separates assignment-status checks from PPT/page/module sync status
+- Checks for stale material whenever the desktop app opens
+- After proactive reminders are enabled, performs an hourly background check and
+  ensures a read-only incremental material refresh at least every 24 hours
 
 ## Privacy and trust
 

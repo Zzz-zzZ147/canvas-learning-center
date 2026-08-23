@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.6 — 2026-08-23
+
+- Fixed stale course material by separating assignment checks from PPT, page, and module synchronization.
+- Added a launch-time freshness check and a 24-hour incremental refresh gate for the optional background task.
+- Fixed both in-app Feedback buttons with a system-mail action and copy-address fallback.
+- Added visible local storage locations and allowlisted Open folder actions.
+- Synced newly accessible Week 4 Canvas records in the Sydney beta environment without bypassing restricted items.
+
+Known release limitation: these installers remain unsigned beta canaries and
+may be blocked or warned about by Gatekeeper or SmartScreen.
+
 ## 0.2.5 — 2026-08-23
 
 - Fixed Canvas connection failures in packaged macOS builds by using the app's bundled certificate-authority store.
