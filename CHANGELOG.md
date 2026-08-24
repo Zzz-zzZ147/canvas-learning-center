@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.9 — 2026-08-24
+
+- Added a local account logout action that removes only the Canvas Token from
+  the operating-system credential store while preserving local materials,
+  knowledge points, notes, progress, and review history.
+- Made both Feedback entries open a pre-addressed Gmail compose page on the first
+  click, with default-mail and copy-address fallbacks.
+- Added a visible application version badge sourced from build metadata.
+- Added an in-app update flow that checks the official public manifest,
+  downloads the correct platform/language installer, verifies size and SHA-256,
+  and opens the normal operating-system installer.
+- Kept updates non-silent and isolated from local learning when offline or when
+  a check fails.
+
+Version 0.2.8 requires one final manual upgrade to 0.2.9. Future published
+versions can use **System Status → App update**.
+
+Known release limitation: these installers remain unsigned beta canaries and
+may be blocked or warned about by Gatekeeper or SmartScreen.
+
 ## 0.2.8 — 2026-08-23
 
 - Added local, source-backed automatic knowledge drafts for learning units that

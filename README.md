@@ -17,7 +17,7 @@ account or institutional data.*
 
 ## Download
 
-Current version: **0.2.8 beta — 23 August 2026**
+Current version: **0.2.9 beta — 24 August 2026**
 
 Choose the package whose first-launch language you prefer. Both editions have
 the same features and can switch language at any time using `EN / 中文` in the
@@ -25,23 +25,23 @@ top-right corner.
 
 | Platform | First-launch language | Download |
 |---|---|---|
-| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.8/CanvasLearningCenter-0.2.8-macOS-universal-en-UNSIGNED-CANARY.pkg) |
-| macOS 13+ (Apple Silicon and Intel) | 中文 | [下载 macOS 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.8/CanvasLearningCenter-0.2.8-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
-| Windows 11 x64 | English | [Download Windows English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.8/CanvasLearningCenter-0.2.8-Windows-x64-en-UNSIGNED-CANARY.msi) |
-| Windows 11 x64 | 中文 | [下载 Windows 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.8/CanvasLearningCenter-0.2.8-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
+| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.9/CanvasLearningCenter-0.2.9-macOS-universal-en-UNSIGNED-CANARY.pkg) |
+| macOS 13+ (Apple Silicon and Intel) | 中文 | [下载 macOS 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.9/CanvasLearningCenter-0.2.9-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
+| Windows 11 x64 | English | [Download Windows English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.9/CanvasLearningCenter-0.2.9-Windows-x64-en-UNSIGNED-CANARY.msi) |
+| Windows 11 x64 | 中文 | [下载 Windows 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.9/CanvasLearningCenter-0.2.9-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
 
-[View the complete v0.2.8 release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.8)
+[View the complete v0.2.9 release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.9)
 · [Installation guide](docs/INSTALLATION.md)
-· [SHA-256 checksums](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.8/SHA256SUMS.txt)
+· [SHA-256 checksums](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.9/SHA256SUMS.txt)
 
-> **Unsigned beta warning:** all 0.2.8 installers are explicitly marked
+> **Unsigned beta warning:** all 0.2.9 installers are explicitly marked
 > `UNSIGNED-CANARY`. They are not yet signed or notarized by Apple or Microsoft,
 > so Gatekeeper or SmartScreen may show a warning or block installation. Read
 > the installation guide and verify the checksum before continuing.
 
 ## Start here
 
-1. Open the [v0.2.8 Releases page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.8).
+1. Open the [v0.2.9 Releases page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.9).
 2. Download the installer for your operating system and preferred first-launch language.
 3. Follow the [macOS or Windows installation steps](docs/INSTALLATION.md).
 4. Sign in to your own institution's Canvas website and create your own Access Token.
@@ -91,6 +91,17 @@ until the student checks the source and confirms them.
 - After proactive reminders are enabled, performs an hourly background check and
   ensures a read-only incremental material refresh at least every 24 hours
 
+### Update without finding the installer again
+
+- Version 0.2.9 adds **System Status → App update**.
+- The app checks this repository's public release manifest, downloads the package
+  for the current operating system and interface language, verifies its declared
+  size and SHA-256, and then opens the normal operating-system installer.
+- Updating from 0.2.8 to 0.2.9 still requires this one manual download. Future
+  published versions can use the in-app flow.
+- Updates are never installed silently, and an offline or failed check does not
+  block local learning features.
+
 ## Privacy and trust
 
 - Canvas access is **read-only in the application**. The app does not modify a
@@ -128,7 +139,8 @@ names, course content, notes, submissions, grades, databases, or local paths.
 - Private or security-sensitive feedback: **canvas-center@z-hstudio.com**
 
 Inside the app, both **Feedback** and **System Status → Contact developer** open
-the same contact panel with default-mail, Gmail web, and copy-address options.
+a pre-addressed Gmail compose page on the first click. Default-mail and
+copy-address options remain available as fallbacks.
 
 Do not include tokens, signed URLs, student IDs, grades, teacher comments,
 course files, or other private information in a public Issue.
