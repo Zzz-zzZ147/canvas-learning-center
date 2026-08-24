@@ -1,110 +1,237 @@
 # Changelog
 
+This file is generated from the same bilingual release history shown inside
+Canvas Learning Center. Do not edit it by hand.
+
+## 0.2.10 — 2026-08-24
+
+### Application and GitHub release history
+
+Adds bilingual release history inside the app and generates the GitHub changelog from the same record.
+
+#### Added
+
+- Added an offline release-history entry in System Status for the current and previous versions.
+- Each release shows its date, change categories, known limitations, and official GitHub Release link.
+- Added a standard-library generator that creates or checks the public CHANGELOG.md.
+
+#### Changed
+
+- Release content is maintained once in a bilingual structured source shared by the app and GitHub.
+- English-default packages show English history, Chinese-default packages show Chinese history, and the history follows the in-app language switch.
+
+#### Security
+
+- Release history is read-only packaged data and contains no token, local path, course content, or personal study data.
+
+#### Known issues
+
+- Installers remain unsigned beta canaries, so Gatekeeper or SmartScreen may display a warning.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.10)
+
 ## 0.2.9 — 2026-08-24
 
-- Added a local account logout action that removes only the Canvas Token from
-  the operating-system credential store while preserving local materials,
-  knowledge points, notes, progress, and review history.
-- Made both Feedback entries open a pre-addressed Gmail compose page on the first
-  click, with default-mail and copy-address fallbacks.
-- Added a visible application version badge sourced from build metadata.
-- Added an in-app update flow that checks the official public manifest,
-  downloads the correct platform/language installer, verifies size and SHA-256,
-  and opens the normal operating-system installer.
-- Kept updates non-silent and isolated from local learning when offline or when
-  a check fails.
+### Account control, feedback, and in-app updates
 
-Version 0.2.8 requires one final manual upgrade to 0.2.9. Future published
-versions can use **System Status → App update**.
+Added safe logout, reliable feedback actions, a visible version badge, and a verified in-app update flow.
 
-Known release limitation: these installers remain unsigned beta canaries and
-may be blocked or warned about by Gatekeeper or SmartScreen.
+#### Added
+
+- Added Canvas logout that removes only the token from the operating-system credential store.
+- Added update checks, verified downloads, and opening of the normal OS installer from the official manifest.
+- Added a visible application version badge.
+
+#### Changed
+
+- Both feedback entries now prefer a pre-addressed Gmail compose page with default-mail and copy-address fallbacks.
+
+#### Security
+
+- Offline or failed update checks do not block local learning or transmit Canvas tokens or study data.
+
+#### Known issues
+
+- Upgrading from 0.2.8 to 0.2.9 requires one final manual install.
+- Installers remain unsigned beta canaries.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.9)
 
 ## 0.2.8 — 2026-08-23
 
-- Added local, source-backed automatic knowledge drafts for learning units that
-  do not yet have confirmed knowledge points.
-- Added PDF, HTML, PPTX, Markdown, and text extraction with source locators and
-  conservative limits; unsupported or insufficient material is reported rather
-  than invented.
-- Kept generated drafts out of mastery, coverage, Today, and review queues until
-  the student checks and confirms them.
-- Replaced the unreliable WebView `mailto:` behavior with a visible contact
-  panel offering default mail, Gmail web, and copy-address fallbacks.
-- Clarified the local material location directly beside each unit's source list.
-- Kept read-only Canvas access and the daily incremental material-refresh gate.
+### Source-backed knowledge drafts and feedback fallbacks
 
-Version 0.2.7 is superseded because its direct `mailto:` links did not work in
-some packaged desktop WebViews. Use 0.2.8.
+Generated reviewable drafts from local teaching sources and replaced unreliable packaged-WebView mail links.
 
-Known release limitation: these installers remain unsigned beta canaries and
-may be blocked or warned about by Gatekeeper or SmartScreen.
+#### Added
+
+- Added conservative PDF, HTML, PPTX, Markdown, and text extraction for reviewable knowledge drafts.
+- Displayed local material locations beside unit sources.
+
+#### Changed
+
+- Unconfirmed drafts stay out of mastery, Today, and review queues.
+
+#### Fixed
+
+- Added default-mail, Gmail web, and copy-address feedback fallbacks.
+
+#### Known issues
+
+- Installers remain unsigned beta canaries.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.8)
 
 ## 0.2.7 — 2026-08-23
 
-- Fixed all macOS installer metadata so the filename, welcome page, package,
-  component, and installed application consistently report version 0.2.7.
-- Limited the default dashboard to courses in the current Canvas teaching term;
-  preserved older local course data without showing portal and exam shells as
-  current courses.
-- Prevented long Canvas course titles from breaking the vertical course ribbon.
-- Replaced the two Feedback actions with direct native `mailto:` links and kept
-  a copy-address fallback.
-- Added release gates that inspect the built macOS PKG and Windows MSI versions.
+### Installer identity and current-course filtering
 
-Version 0.2.6 is superseded because its macOS installer displayed stale internal
-version metadata and its current-course filtering was incomplete. Use 0.2.7.
+Aligned macOS installer version metadata and prevented old courses or long titles from breaking the dashboard.
 
-Known release limitation: these installers remain unsigned beta canaries and
-may be blocked or warned about by Gatekeeper or SmartScreen.
+#### Added
+
+- Added release gates for macOS PKG and Windows MSI version identity.
+
+#### Changed
+
+- The dashboard now defaults to the current Canvas teaching term.
+
+#### Fixed
+
+- Fixed stale installer version metadata.
+- Fixed long course names breaking the vertical course ribbon.
+
+#### Known issues
+
+- Installers remain unsigned beta canaries.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.7)
 
 ## 0.2.6 — 2026-08-23
 
-- Fixed stale course material by separating assignment checks from PPT, page, and module synchronization.
-- Added a launch-time freshness check and a 24-hour incremental refresh gate for the optional background task.
-- Fixed both in-app Feedback buttons with a system-mail action and copy-address fallback.
-- Added visible local storage locations and allowlisted Open folder actions.
-- Synced newly accessible Week 4 Canvas records in the Sydney beta environment without bypassing restricted items.
+### Material freshness and local storage locations
 
-Known release limitation: these installers remain unsigned beta canaries and
-may be blocked or warned about by Gatekeeper or SmartScreen.
+Separated assignment checks from material sync and added launch-time and 24-hour incremental refresh gates.
+
+#### Added
+
+- Added launch-time freshness checks and a 24-hour background incremental sync.
+- Added visible local storage locations and allowlisted open-folder actions.
+
+#### Changed
+
+- Assignment status checks no longer stand in for PPT, page, and module synchronization.
+
+#### Fixed
+
+- Synchronized accessible Week 4 records without bypassing Canvas permissions.
+
+#### Known issues
+
+- Canvas-restricted content remains explicitly marked and is not bypassed.
+- Installers remain unsigned beta canaries.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.6)
 
 ## 0.2.5 — 2026-08-23
 
-- Fixed Canvas connection failures in packaged macOS builds by using the app's bundled certificate-authority store.
-- Added a distinct, privacy-safe TLS certificate error category for diagnostics.
-- Rebuilt the Chinese-default and English-default macOS and Windows installers.
-- Kept Canvas access read-only and preserved token storage in the operating-system credential store.
+### Packaged Canvas TLS fix
 
-Known release limitation: these installers remain unsigned beta canaries and
-may be blocked or warned about by Gatekeeper or SmartScreen.
+Made packaged desktop builds use the bundled CA store when connecting to Canvas.
+
+#### Added
+
+- Added a privacy-safe TLS certificate error category to diagnostics.
+
+#### Changed
+
+- Rebuilt Chinese-default and English-default macOS and Windows installers.
+
+#### Fixed
+
+- Fixed packaged macOS builds failing to verify the Canvas certificate.
+
+#### Security
+
+- Tokens remain in the OS credential store and Canvas access stays read-only.
+
+#### Known issues
+
+- Installers remain unsigned beta canaries.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.5)
 
 ## 0.2.4 — 2026-08-23
 
-- Added one-click privacy-safe diagnostic bundle export to first-run setup and System Status.
-- Replaced generic Canvas connection failures with safe error categories and diagnostic IDs.
-- Included only allowlisted platform, Canvas host, aggregate storage, SQLite health, sync status, and structured event fields.
-- Excluded credentials, identity data, course titles/content, notes, submissions, grades, databases, signed URLs, and local paths from the bundle.
-- Fixed Windows diagnostic-log lifecycle handling found by the Windows CI canary.
+### Privacy-safe diagnostic bundles
 
-Known release limitation: these installers remain unsigned beta canaries and
-may be blocked or warned about by Gatekeeper or SmartScreen.
+Enabled one-click export of allowlisted, privacy-filtered technical diagnostics.
+
+#### Added
+
+- Added one-click diagnostic export to first-run setup and System Status.
+- Connection failures now show safe error categories and diagnostic IDs.
+
+#### Changed
+
+- Diagnostics include only platform, Canvas host, aggregate storage, SQLite health, and structured events.
+
+#### Fixed
+
+- Fixed a Windows diagnostic-log lifecycle issue.
+
+#### Security
+
+- Diagnostic bundles exclude credentials, identity, course content, notes, submissions, grades, databases, signed URLs, and local paths.
+
+#### Known issues
+
+- Installers remain unsigned beta canaries.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.4)
 
 ## 0.2.3 — 2026-08-22
 
-- Added an in-app `EN / 中文` language switch.
-- Added separate Chinese-default and English-default packages for macOS and Windows.
-- Preserved a user's saved language choice during an upgrade.
-- Added bilingual installation and download instructions.
-- Strengthened release metadata and package-integrity checks.
-- Kept the Canvas connection read-only.
+### Bilingual interface and locale-specific installers
 
-Known release limitation: these installers remain unsigned beta canaries and
-may be blocked or warned about by Gatekeeper or SmartScreen.
+Added in-app Chinese/English switching and separate Chinese-default and English-default packages.
+
+#### Added
+
+- Added an in-app EN / 中文 language switch.
+- Added Chinese-default and English-default packages for macOS and Windows.
+- Added bilingual installation and download instructions.
+
+#### Changed
+
+- Upgrades preserve the user's selected interface language.
+
+#### Security
+
+- Strengthened release metadata and package-integrity checks while keeping Canvas read-only.
+
+#### Known issues
+
+- Installers remain unsigned beta canaries.
+
+[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.3)
 
 ## 0.2.2 — 2026-08-21
 
-- Added plain-text installation instructions.
-- Corrected developer attribution and support contact details.
-- Added package metadata, third-party notices, and release checksums.
-- Added the in-app feedback link.
+### Installation guidance and developer identity
+
+Added plain-text installation guidance, developer attribution, feedback email, and release metadata.
+
+#### Added
+
+- Added TXT installation instructions, third-party notices, checksums, and an in-app feedback entry.
+
+#### Changed
+
+- Standardized developer attribution as ZihengHuang and feedback email as canvas-center@z-hstudio.com.
+
+#### Known issues
+
+- This was an internal beta milestone without public GitHub installer assets.
+
+_Internal beta milestone; no public release asset._
