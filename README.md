@@ -99,8 +99,11 @@ until the student checks the source and confirms them.
   the background. This option is off by default.
 - Installation is always manual: the app never runs an installer or changes the
   installed version without the user's operating-system confirmation.
-- Installed 0.2.10 clients can discover 0.2.11 through the compatibility update
-  channel. An offline or failed check does not block local learning features.
+- Installed 0.2.10 clients can discover 0.2.11, but the one-time 0.2.10 → 0.2.11
+  transition must be installed from this Release page because the old client
+  cannot safely follow GitHub's repository-rename download redirect. Versions
+  from 0.2.11 onward use the stable `z-hstudio` update channel.
+- An offline or failed check does not block local learning features.
 
 ### See what changed in each version
 

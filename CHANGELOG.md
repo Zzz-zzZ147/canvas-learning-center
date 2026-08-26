@@ -22,7 +22,7 @@ Automatically checks the official release channel and lets users opt into backgr
 
 #### Fixed
 
-- Fixed installed 0.2.10 clients reporting that update checking was unavailable after the GitHub repository migration.
+- Restored update discovery for installed 0.2.10 clients after the GitHub repository migration; the one-time 0.2.11 installer must still be downloaded manually because the old client's fixed allowlist cannot follow the repository-rename redirect.
 
 #### Security
 
@@ -31,6 +31,7 @@ Automatically checks the official release channel and lets users opt into backgr
 #### Known issues
 
 - Installers are not yet formally code-signed, so macOS Gatekeeper or Windows SmartScreen may display a warning.
+- The 0.2.10 → 0.2.11 transition requires one manual download from the official Release page; versions from 0.2.11 onward use the stable update channel.
 
 [View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.11)
 

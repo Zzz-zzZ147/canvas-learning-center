@@ -18,8 +18,10 @@ Release date: 27 August 2026
   skip paths.
 - Uses the official product name **Canvas Learning Center** without the former
   Sydney beta label.
-- Fixes the compatibility channel used by installed 0.2.10 clients after the
-  public GitHub repository migration.
+- Restores update discovery for installed 0.2.10 clients after the public GitHub
+  repository migration. The one-time 0.2.10 → 0.2.11 installation must still be
+  downloaded manually because the old client's fixed allowlist cannot follow
+  GitHub's repository-rename download redirect.
 
 ## Important limitation
 

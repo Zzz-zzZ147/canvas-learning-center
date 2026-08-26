@@ -116,6 +116,11 @@ of the package for your current platform and interface language. This setting is
 off by default. Installation is always manual: the app only opens the normal
 macOS or Windows installer after you choose to proceed.
 
+If you are currently running 0.2.10, download and install 0.2.11 from the
+official Release page once. The old client can discover 0.2.11, but its fixed
+security allowlist cannot follow GitHub's repository-rename download redirect.
+From 0.2.11 onward, update downloads use the stable `z-hstudio` channel.
+
 Local application data and the saved language choice are designed to remain in
 place. Back up important personal notes before installing an update.
 

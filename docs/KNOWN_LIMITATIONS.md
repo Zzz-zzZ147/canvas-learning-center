@@ -11,6 +11,13 @@ an update, Keychain may therefore ask the user to approve access to the existing
 Canvas credential again. This is not a request to share the credential with the
 developer; formal signing is still required to remove this avoidable friction.
 
+## One-time update transition
+
+Version 0.2.10 can discover 0.2.11, but cannot download it through the old
+repository address because its fixed security allowlist rejects GitHub's
+repository-rename redirect. Install 0.2.11 manually from the official Release
+page once. Versions from 0.2.11 onward use the stable `z-hstudio` update channel.
+
 ## Institution coverage
 
 The current release has been validated primarily against University of
