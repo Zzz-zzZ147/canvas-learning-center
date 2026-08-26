@@ -230,7 +230,7 @@ Added in-app Chinese/English switching and separate Chinese-default and English-
 
 #### Added
 
-- Added an in-app EN / 中文 language switch.
+- Added an in-app English / Chinese language switch.
 - Added Chinese-default and English-default packages for macOS and Windows.
 - Added bilingual installation and download instructions.
 
