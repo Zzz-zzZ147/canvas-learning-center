@@ -6,7 +6,7 @@ Canvas tells you what exists in a course. Canvas Learning Center helps you see
 what to do today, whether an assignment may have been missed, how far you have
 studied, and which knowledge points still need review.
 
-> Independent beta by **ZihengHuang** (social: **漫游桑 Z**).
+> Independently developed by **ZihengHuang** (social: **Manyousang Z**).
 > Not affiliated with or endorsed by Instructure, University of Sydney, or any
 > other educational institution.
 
@@ -17,31 +17,31 @@ account or institutional data.*
 
 ## Download
 
-Current version: **0.2.10 beta — 24 August 2026**
+Current public release: **0.2.10 — 24 August 2026**
 
 Choose the package whose first-launch language you prefer. Both editions have
-the same features and can switch language at any time using `EN / 中文` in the
-top-right corner.
+the same features and can switch language at any time using the language button
+in the top-right corner.
 
 | Platform | First-launch language | Download |
 |---|---|---|
-| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-en-UNSIGNED-CANARY.pkg) |
-| macOS 13+ (Apple Silicon and Intel) | 中文 | [下载 macOS 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
-| Windows 11 x64 | English | [Download Windows English](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-en-UNSIGNED-CANARY.msi) |
-| Windows 11 x64 | 中文 | [下载 Windows 中文版](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
+| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-en-UNSIGNED-CANARY.pkg) |
+| macOS 13+ (Apple Silicon and Intel) | Chinese | [Download macOS Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
+| Windows 11 x64 | English | [Download Windows English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-en-UNSIGNED-CANARY.msi) |
+| Windows 11 x64 | Chinese | [Download Windows Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
 
-[View the complete v0.2.10 release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.10)
+[View the complete v0.2.10 release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10)
 · [Installation guide](docs/INSTALLATION.md)
-· [SHA-256 checksums](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/download/v0.2.10/SHA256SUMS.txt)
+· [SHA-256 checksums](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/SHA256SUMS.txt)
 
-> **Unsigned beta warning:** all 0.2.10 installers are explicitly marked
+> **Unsigned package warning:** all 0.2.10 installers are explicitly marked
 > `UNSIGNED-CANARY`. They are not yet signed or notarized by Apple or Microsoft,
 > so Gatekeeper or SmartScreen may show a warning or block installation. Read
 > the installation guide and verify the checksum before continuing.
 
 ## Start here
 
-1. Open the [v0.2.10 Releases page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.10).
+1. Open the [v0.2.10 Releases page](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10).
 2. Download the installer for your operating system and preferred first-launch language.
 3. Follow the [macOS or Windows installation steps](docs/INSTALLATION.md).
 4. Sign in to your own institution's Canvas website and create your own Access Token.
@@ -129,21 +129,21 @@ password even though this app only uses read-only requests. See the full
 
 - macOS 13 or later: Apple Silicon and Intel
 - Windows 11: x64
-- The current beta has been tested primarily with University of Sydney's Canvas
-  environment. Other Canvas institutions may configure APIs and Access Tokens
-  differently and need additional validation.
+- The current release has been validated primarily with University of Sydney's
+  Canvas environment. Other Canvas institutions may configure APIs and Access
+  Tokens differently and may need additional compatibility work.
 
-See [Known limitations](docs/KNOWN_LIMITATIONS.md) before testing.
+See [Known limitations](docs/KNOWN_LIMITATIONS.md) before installing.
 
-## Feedback and school testing
+## Feedback and institution support
 
 If the app cannot connect or sync, use **Export to Downloads** on the first-run
 page or under **System Status**, then email the generated diagnostic ZIP. It
 contains privacy-filtered technical state and error identifiers—not credentials,
 names, course content, notes, submissions, grades, databases, or local paths.
 
-- [Report a bug](https://github.com/Zzz-zzZ147/canvas-learning-center/issues/new?template=bug_report.yml)
-- [Suggest a feature](https://github.com/Zzz-zzZ147/canvas-learning-center/issues/new?template=feature_request.yml)
+- [Report a bug](https://github.com/z-hstudio/canvas-learning-center/issues/new?template=bug_report.yml)
+- [Suggest a feature](https://github.com/z-hstudio/canvas-learning-center/issues/new?template=feature_request.yml)
 - Private or security-sensitive feedback: **canvas-center@z-hstudio.com**
 
 Inside the app, both **Feedback** and **System Status → Contact developer** open
@@ -156,7 +156,7 @@ course files, or other private information in a public Issue.
 ## Distribution and source availability
 
 Canvas Learning Center is **free to download and use for personal educational
-testing**. The complete source code and internal implementation are currently
+purposes**. The complete source code and internal implementation are currently
 not publicly distributed. This repository is a product information, support,
 and official download channel; it is not an open-source source repository.
 
@@ -173,6 +173,5 @@ Copyright © 2026 ZihengHuang. All rights reserved. See [Terms](TERMS.md).
 - [Canvas Access Token guide](docs/CANVAS_TOKEN.md)
 - [Privacy](docs/PRIVACY.md)
 - [Known limitations](docs/KNOWN_LIMITATIONS.md)
-- [中文下载与安装说明](docs/中文说明.md)
 - [Changelog](CHANGELOG.md)
 - [Security reporting](SECURITY.md)

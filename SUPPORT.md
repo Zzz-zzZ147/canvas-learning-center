@@ -1,6 +1,6 @@
 # Support
 
-- General questions and reproducible bugs: use [GitHub Issues](https://github.com/Zzz-zzZ147/canvas-learning-center/issues).
+- General questions and reproducible bugs: use [GitHub Issues](https://github.com/z-hstudio/canvas-learning-center/issues).
 - Private feedback, school adaptation, or collaboration: **canvas-center@z-hstudio.com**.
 - Security or privacy-sensitive reports: follow [SECURITY.md](SECURITY.md).
 

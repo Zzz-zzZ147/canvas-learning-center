@@ -1,6 +1,6 @@
 # Known limitations
 
-## Unsigned beta packages
+## Unsigned packages
 
 Version 0.2.10 is an `UNSIGNED-CANARY`. The macOS package is not Apple-notarized,
 and the Windows MSI does not have a trusted Microsoft code-signing identity.
@@ -13,7 +13,7 @@ developer; formal signing is still required to remove this avoidable friction.
 
 ## Institution coverage
 
-The current real-world beta has been tested primarily against University of
+The current release has been validated primarily against University of
 Sydney's Canvas environment. Other institutions can change Canvas hostnames,
 API access, Access Token availability, and course permissions.
 
@@ -32,7 +32,7 @@ API access, Access Token availability, and course permissions.
   external-only, empty, or insufficient source material cannot generate a draft.
 - A learning unit with no usable local source continues to show that its
   knowledge structure has not been generated.
-- Runtime paid-model automation is not enabled in this beta.
+- Runtime paid-model automation is not enabled in this release.
 
 ## Final authority
 

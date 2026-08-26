@@ -16,16 +16,16 @@ not contain the application source code.
 ### macOS 13 or later
 
 - English on first launch: `CanvasLearningCenter-0.2.3-macOS-universal-en-UNSIGNED-CANARY.pkg`
-- 中文首次启动: `CanvasLearningCenter-0.2.3-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg`
+- Chinese-first launch: `CanvasLearningCenter-0.2.3-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg`
 
 Both macOS packages are universal packages for Apple Silicon and Intel.
 
 ### Windows 11 x64
 
 - English on first launch: `CanvasLearningCenter-0.2.3-Windows-x64-en-UNSIGNED-CANARY.msi`
-- 中文首次启动: `CanvasLearningCenter-0.2.3-Windows-x64-zh-CN-UNSIGNED-CANARY.msi`
+- Chinese-first launch: `CanvasLearningCenter-0.2.3-Windows-x64-zh-CN-UNSIGNED-CANARY.msi`
 
-All four packages have the same features. Use `EN / 中文` inside the app to
+All four packages have the same features. Use the language button inside the app to
 switch language at any time.
 
 ## Main capabilities
@@ -49,7 +49,7 @@ switch language at any time.
 
 1. Download the correct `.pkg` or `.msi` from **Assets** below.
 2. Download `SHA256SUMS.txt` and verify the installer checksum.
-3. Follow the repository's [installation guide](https://github.com/Zzz-zzZ147/canvas-learning-center/blob/main/docs/INSTALLATION.md).
+3. Follow the repository's [installation guide](https://github.com/z-hstudio/canvas-learning-center/blob/main/docs/INSTALLATION.md).
 4. Create your own Canvas Access Token from your institution's Canvas settings.
 5. Paste the token only into the app, confirm discovered courses, and start the
    first read-only sync.

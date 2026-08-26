@@ -28,7 +28,7 @@ Adds bilingual release history inside the app and generates the GitHub changelog
 
 - Installers remain unsigned beta canaries, so Gatekeeper or SmartScreen may display a warning.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.10)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10)
 
 ## 0.2.9 — 2026-08-24
 
@@ -55,7 +55,7 @@ Added safe logout, reliable feedback actions, a visible version badge, and a ver
 - Upgrading from 0.2.8 to 0.2.9 requires one final manual install.
 - Installers remain unsigned beta canaries.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.9)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.9)
 
 ## 0.2.8 — 2026-08-23
 
@@ -80,7 +80,7 @@ Generated reviewable drafts from local teaching sources and replaced unreliable 
 
 - Installers remain unsigned beta canaries.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.8)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.8)
 
 ## 0.2.7 — 2026-08-23
 
@@ -105,7 +105,7 @@ Aligned macOS installer version metadata and prevented old courses or long title
 
 - Installers remain unsigned beta canaries.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.7)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.7)
 
 ## 0.2.6 — 2026-08-23
 
@@ -131,7 +131,7 @@ Separated assignment checks from material sync and added launch-time and 24-hour
 - Canvas-restricted content remains explicitly marked and is not bypassed.
 - Installers remain unsigned beta canaries.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.6)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.6)
 
 ## 0.2.5 — 2026-08-23
 
@@ -159,7 +159,7 @@ Made packaged desktop builds use the bundled CA store when connecting to Canvas.
 
 - Installers remain unsigned beta canaries.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.5)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.5)
 
 ## 0.2.4 — 2026-08-23
 
@@ -188,7 +188,7 @@ Enabled one-click export of allowlisted, privacy-filtered technical diagnostics.
 
 - Installers remain unsigned beta canaries.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.4)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.4)
 
 ## 0.2.3 — 2026-08-22
 
@@ -198,7 +198,7 @@ Added in-app Chinese/English switching and separate Chinese-default and English-
 
 #### Added
 
-- Added an in-app EN / 中文 language switch.
+- Added an in-app English/Chinese language switch.
 - Added Chinese-default and English-default packages for macOS and Windows.
 - Added bilingual installation and download instructions.
 
@@ -214,7 +214,7 @@ Added in-app Chinese/English switching and separate Chinese-default and English-
 
 - Installers remain unsigned beta canaries.
 
-[View GitHub Release](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.3)
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.3)
 
 ## 0.2.2 — 2026-08-21
 

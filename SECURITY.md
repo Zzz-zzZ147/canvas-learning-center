@@ -16,5 +16,5 @@ Never send a Canvas Access Token, password, cookie, private key, or database.
 
 ## Supported version
 
-The current supported public beta is `0.2.3`. This independent beta does not
-operate a public bug-bounty programme.
+The current supported public release is `0.2.10`. This independent product does
+not operate a public bug-bounty programme.

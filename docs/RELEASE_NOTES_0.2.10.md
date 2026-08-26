@@ -9,7 +9,7 @@
   and previous release records.
 - Each release shows its date, change categories, known limitations, and link to
   the official GitHub Release when one exists.
-- The history follows the app's `EN / 中文` language setting.
+- The history follows the app's language setting.
 - The in-app bilingual history and public `CHANGELOG.md` are now generated from
   one structured release record, with a release check that detects drift.
 - Packaged history contains no Canvas token, local path, course material, or
@@ -21,7 +21,7 @@ Users on 0.2.9 can open **System Status → App update** to check, download, ver
 and open the 0.2.10 installer. Installation still requires explicit confirmation
 in the normal macOS or Windows installer.
 
-## Important beta boundary
+## Important signing boundary
 
 These files remain `UNSIGNED-CANARY` packages. Gatekeeper or SmartScreen may
 display a warning, and the app never installs an update silently.

@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for testing Canvas Learning Center. Never include a Canvas token, password, student ID, signed URL, grade, teacher comment, submission, private note, or course file.
+        Thanks for using Canvas Learning Center. Never include a Canvas token, password, student ID, signed URL, grade, teacher comment, submission, private note, or course file.
   - type: input
     id: version
     attributes:

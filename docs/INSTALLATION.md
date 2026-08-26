@@ -4,18 +4,18 @@ This guide is written for people who do not normally use developer tools.
 
 ## 1. Choose your download
 
-Open the [v0.2.10 release page](https://github.com/Zzz-zzZ147/canvas-learning-center/releases/tag/v0.2.10),
+Open the [v0.2.10 release page](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10),
 expand **Assets**, and choose one file:
 
 | Your computer | Default language | Filename |
 |---|---|---|
 | Mac | English | `CanvasLearningCenter-0.2.10-macOS-universal-en-UNSIGNED-CANARY.pkg` |
-| Mac | 中文 | `CanvasLearningCenter-0.2.10-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg` |
+| Mac | Chinese | `CanvasLearningCenter-0.2.10-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg` |
 | Windows 11 | English | `CanvasLearningCenter-0.2.10-Windows-x64-en-UNSIGNED-CANARY.msi` |
-| Windows 11 | 中文 | `CanvasLearningCenter-0.2.10-Windows-x64-zh-CN-UNSIGNED-CANARY.msi` |
+| Windows 11 | Chinese | `CanvasLearningCenter-0.2.10-Windows-x64-zh-CN-UNSIGNED-CANARY.msi` |
 
 The features are identical. The selected language is only the first-launch
-default; use `EN / 中文` inside the app whenever you want to switch.
+default; use the language button inside the app whenever you want to switch.
 
 ## 2. Check the download
 
@@ -42,9 +42,9 @@ If the values do not match, delete the file and do not open it.
 
 1. Double-click the `.pkg` file.
 2. Follow the installer prompts.
-3. Open **Applications** and launch **Canvas Learning Center (Sydney-first beta)**.
+3. Open **Applications** and launch **Canvas Learning Center**.
 
-The 0.2.10 beta is not yet signed or notarized. Gatekeeper may refuse to open it.
+The 0.2.10 package is not yet signed or notarized. Gatekeeper may refuse to open it.
 Only if the file came from this official release and its checksum matches:
 
 1. Open **System Settings → Privacy & Security**.
@@ -54,7 +54,7 @@ Only if the file came from this official release and its checksum matches:
 If the expected security message or checksum is different, stop and contact the
 developer. No Terminal bypass command is required or recommended.
 
-Because this beta is unsigned, macOS may also ask whether Canvas Learning Center
+Because this release is unsigned, macOS may also ask whether Canvas Learning Center
 may read its existing Canvas credential from Keychain after an update. Continue
 only when the installer came from this Release and its checksum matches. The
 dialog may request your Mac login password; never send that password or the
@@ -67,7 +67,7 @@ builds a stable identity and prevent avoidable repeated prompts.
 2. Follow the installation wizard.
 3. Open Canvas Learning Center from the Start menu or desktop shortcut.
 
-The 0.2.10 beta is not yet signed. Microsoft Defender SmartScreen may display a
+The 0.2.10 package is not yet signed. Microsoft Defender SmartScreen may display a
 warning. Continue only when the filename and checksum match the official
 release. If you are unsure, cancel and contact the developer.
 
@@ -100,10 +100,12 @@ Read [the complete Access Token guide](CANVAS_TOKEN.md) before creating the toke
 The app shows these paths in the course source area and Personal Knowledge Library,
 with an **Open folder** button:
 
-- macOS Canvas material: `~/Library/Application Support/com.zzz.canvas-learning-center/课程资料`
-- macOS personal archive: `~/Library/Application Support/com.zzz.canvas-learning-center/知识库`
-- Windows Canvas material: `%LOCALAPPDATA%\ZZZ\CanvasLearningCenter\课程资料`
-- Windows personal archive: `%LOCALAPPDATA%\ZZZ\CanvasLearningCenter\知识库`
+- macOS application data root: `~/Library/Application Support/com.zzz.canvas-learning-center/`
+- Windows application data root: `%LOCALAPPDATA%\ZZZ\CanvasLearningCenter\`
+
+Course material and the personal knowledge library are stored in separate
+subfolders under that root. Use the app's **Open folder** action to open the
+exact folder without relying on a localized folder name.
 
 ## Updating
 
@@ -113,7 +115,7 @@ interface language, verify its size and SHA-256, and open the normal macOS or
 Windows installer. It never installs an update silently.
 
 Local application data and the saved language choice are designed to remain in
-place. Back up important personal notes before testing a beta update.
+place. Back up important personal notes before installing an update.
 
 ## If connection or sync fails
 

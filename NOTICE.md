@@ -1,6 +1,6 @@
 # Independent product notice
 
-Canvas Learning Center is an independent personal beta project by ZihengHuang.
+Canvas Learning Center is an independent product by ZihengHuang.
 It is not affiliated with, endorsed by, or an official product of Instructure,
 University of Sydney, or any other educational institution.
 
