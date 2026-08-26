@@ -3,6 +3,37 @@
 This file is generated from the same bilingual release history shown inside
 Canvas Learning Center. Do not edit it by hand.
 
+## 0.2.11 — 2026-08-27
+
+### Automatic checks and optional background downloads
+
+Automatically checks the official release channel and lets users opt into background download and verification while keeping installation fully manual.
+
+#### Added
+
+- Checks for a new version on launch and repeats every 24 hours while the app remains open.
+- Added a persistent, opt-in Download and verify new installers automatically setting in System Status.
+- Added the branded startup title with pointer, keyboard, and reduced-motion skip paths.
+
+#### Changed
+
+- Automatic download only stores the platform- and language-matched installer after URL, size, and SHA-256 verification; it never launches it automatically.
+- Updated the application name and interface identity to Canvas Learning Center without the former Sydney beta label.
+
+#### Fixed
+
+- Fixed installed 0.2.10 clients reporting that update checking was unavailable after the GitHub repository migration.
+
+#### Security
+
+- Installation mode remains manual: the user must open the system installer and confirm through macOS or Windows.
+
+#### Known issues
+
+- Installers are not yet formally code-signed, so macOS Gatekeeper or Windows SmartScreen may display a warning.
+
+[View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.11)
+
 ## 0.2.10 — 2026-08-24
 
 ### Application and GitHub release history
@@ -26,7 +57,7 @@ Adds bilingual release history inside the app and generates the GitHub changelog
 
 #### Known issues
 
-- Installers remain unsigned beta canaries, so Gatekeeper or SmartScreen may display a warning.
+- Installers remain unsigned, so Gatekeeper or SmartScreen may display a warning.
 
 [View GitHub Release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10)
 
@@ -198,7 +229,7 @@ Added in-app Chinese/English switching and separate Chinese-default and English-
 
 #### Added
 
-- Added an in-app English/Chinese language switch.
+- Added an in-app EN / 中文 language switch.
 - Added Chinese-default and English-default packages for macOS and Windows.
 - Added bilingual installation and download instructions.
 
@@ -234,4 +265,4 @@ Added plain-text installation guidance, developer attribution, feedback email, a
 
 - This was an internal beta milestone without public GitHub installer assets.
 
-_Internal beta milestone; no public release asset._
+_Upcoming release; no public installer is available yet._

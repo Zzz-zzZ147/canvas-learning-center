@@ -17,7 +17,7 @@ account or institutional data.*
 
 ## Download
 
-Current public release: **0.2.10 — 24 August 2026**
+Current public release: **0.2.11 — 27 August 2026**
 
 Choose the package whose first-launch language you prefer. Both editions have
 the same features and can switch language at any time using the language button
@@ -25,23 +25,23 @@ in the top-right corner.
 
 | Platform | First-launch language | Download |
 |---|---|---|
-| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-en-UNSIGNED-CANARY.pkg) |
-| macOS 13+ (Apple Silicon and Intel) | Chinese | [Download macOS Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
-| Windows 11 x64 | English | [Download Windows English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-en-UNSIGNED-CANARY.msi) |
-| Windows 11 x64 | Chinese | [Download Windows Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
+| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-macOS-universal-en-UNSIGNED-CANARY.pkg) |
+| macOS 13+ (Apple Silicon and Intel) | Chinese | [Download macOS Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
+| Windows 11 x64 | English | [Download Windows English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-Windows-x64-en-UNSIGNED-CANARY.msi) |
+| Windows 11 x64 | Chinese | [Download Windows Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
 
-[View the complete v0.2.10 release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10)
+[View the complete v0.2.11 release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.11)
 · [Installation guide](docs/INSTALLATION.md)
-· [SHA-256 checksums](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/SHA256SUMS.txt)
+· [SHA-256 checksums](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/SHA256SUMS.txt)
 
-> **Unsigned package warning:** all 0.2.10 installers are explicitly marked
+> **Unsigned package warning:** all 0.2.11 installers are explicitly marked
 > `UNSIGNED-CANARY`. They are not yet signed or notarized by Apple or Microsoft,
 > so Gatekeeper or SmartScreen may show a warning or block installation. Read
 > the installation guide and verify the checksum before continuing.
 
 ## Start here
 
-1. Open the [v0.2.10 Releases page](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10).
+1. Open the [v0.2.11 Releases page](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.11).
 2. Download the installer for your operating system and preferred first-launch language.
 3. Follow the [macOS or Windows installation steps](docs/INSTALLATION.md).
 4. Sign in to your own institution's Canvas website and create your own Access Token.
@@ -93,18 +93,18 @@ until the student checks the source and confirms them.
 
 ### Update without finding the installer again
 
-- Version 0.2.9 introduced **System Status → App update**.
-- The app checks this repository's public release manifest, downloads the package
-  for the current operating system and interface language, verifies its declared
-  size and SHA-256, and then opens the normal operating-system installer.
-- Users on 0.2.9 can check, download, and open the 0.2.10 installer through the
-  in-app flow.
-- Updates are never installed silently, and an offline or failed check does not
-  block local learning features.
+- Version 0.2.11 checks the official release channel on launch and every 24
+  hours while the app remains open.
+- Users can choose whether the matching installer is downloaded and verified in
+  the background. This option is off by default.
+- Installation is always manual: the app never runs an installer or changes the
+  installed version without the user's operating-system confirmation.
+- Installed 0.2.10 clients can discover 0.2.11 through the compatibility update
+  channel. An offline or failed check does not block local learning features.
 
 ### See what changed in each version
 
-- Version 0.2.10 adds **System Status → Version history** inside the app.
+- **System Status → Version history** lists this release and earlier changes.
 - The bilingual in-app history and this repository's [CHANGELOG](CHANGELOG.md)
   are generated from the same structured release record.
 - Changing the app language also changes the displayed release history; the
