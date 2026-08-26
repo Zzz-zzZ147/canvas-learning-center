@@ -1,40 +1,40 @@
 {
   "packages": [
     {
-      "filename": "CanvasLearningCenter-0.2.10-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg",
+      "filename": "CanvasLearningCenter-0.2.11-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg",
       "locale": "zh-CN",
       "platform": "macos",
-      "sha256": "ad0fdd56761d1c4428ae182d5fe4b26f2f5f307cb0ed712e8632b33cb6dbdef8",
-      "size": 36557132,
-      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg"
+      "sha256": "6c7de5b75603e90734d2ace2af88701cdb68a19b60cff4a156a53d715eb61f58",
+      "size": 36279653,
+      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg"
     },
     {
-      "filename": "CanvasLearningCenter-0.2.10-macOS-universal-en-UNSIGNED-CANARY.pkg",
+      "filename": "CanvasLearningCenter-0.2.11-macOS-universal-en-UNSIGNED-CANARY.pkg",
       "locale": "en",
       "platform": "macos",
-      "sha256": "9cf8431e012bbb77fdd10870a06ca1e454d263f7d5707b66ac0f667712e9ace4",
-      "size": 36556417,
-      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-macOS-universal-en-UNSIGNED-CANARY.pkg"
+      "sha256": "e6085f511623d3aa2e8d285615a8be0870966a70b8c3fe6a041ca5658df2c804",
+      "size": 36280027,
+      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-macOS-universal-en-UNSIGNED-CANARY.pkg"
     },
     {
-      "filename": "CanvasLearningCenter-0.2.10-Windows-x64-zh-CN-UNSIGNED-CANARY.msi",
+      "filename": "CanvasLearningCenter-0.2.11-Windows-x64-zh-CN-UNSIGNED-CANARY.msi",
       "locale": "zh-CN",
       "platform": "windows",
-      "sha256": "531e57c96efd7584bb4a6ee5ae78bf0fdbe1b6b1368d2ea1c05eff2249338858",
-      "size": 20124520,
-      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-zh-CN-UNSIGNED-CANARY.msi"
+      "sha256": "c74dbf44c8bb7eb3ddf425a8607e3904fd411b243828d2ab24a7979984c245d0",
+      "size": 20144891,
+      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-Windows-x64-zh-CN-UNSIGNED-CANARY.msi"
     },
     {
-      "filename": "CanvasLearningCenter-0.2.10-Windows-x64-en-UNSIGNED-CANARY.msi",
+      "filename": "CanvasLearningCenter-0.2.11-Windows-x64-en-UNSIGNED-CANARY.msi",
       "locale": "en",
       "platform": "windows",
-      "sha256": "0ceb1f1a2ef044fec021edb6adce7db3901c21803a21b7fe48fa4dab7aceb6bc",
-      "size": 20120424,
-      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.10/CanvasLearningCenter-0.2.10-Windows-x64-en-UNSIGNED-CANARY.msi"
+      "sha256": "d39e9e2cb1e13b48f9089bbd63b25a68b583d6d0743864838819d1d7a51fd3e3",
+      "size": 20144891,
+      "url": "https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-Windows-x64-en-UNSIGNED-CANARY.msi"
     }
   ],
-  "published_at": "2026-08-24T13:37:29Z",
-  "release_url": "https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.10",
+  "published_at": "2026-08-26T16:35:19Z",
+  "release_url": "https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.11",
   "schema_version": 1,
-  "version": "0.2.10"
+  "version": "0.2.11"
 }
