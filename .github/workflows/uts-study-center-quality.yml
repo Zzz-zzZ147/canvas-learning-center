@@ -6,7 +6,6 @@ on:
       - "apps/uts-study-center/**"
       - ".github/workflows/uts-study-center-quality.yml"
   push:
-    branches: [main]
     paths:
       - "apps/uts-study-center/**"
       - ".github/workflows/uts-study-center-quality.yml"
