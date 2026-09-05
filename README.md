@@ -10,14 +10,19 @@ studied, and which knowledge points still need review.
 > Not affiliated with or endorsed by Instructure, University of Sydney, or any
 > other educational institution.
 
-![Canvas Learning Center dashboard using demo data](screenshots/dashboard-demo.png)
+<details>
+<summary>Earlier design preview (fictional demo data, not a 0.2.16 screenshot)</summary>
 
-*The screenshot uses fictional demo courses and tasks. It contains no student
-account or institutional data.*
+![Earlier Canvas Learning Center design preview](screenshots/dashboard-demo.png)
+
+This historical illustration uses fictional courses and tasks. Its older labels
+and layout are not the current release interface. No student account data is shown.
+
+</details>
 
 ## Download
 
-Current public release: **0.2.11 — 27 August 2026**
+Current public release: **0.2.16 — 5 September 2026**
 
 Choose the package whose first-launch language you prefer. Both editions have
 the same features and can switch language at any time using the language button
@@ -25,23 +30,23 @@ in the top-right corner.
 
 | Platform | First-launch language | Download |
 |---|---|---|
-| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-macOS-universal-en-UNSIGNED-CANARY.pkg) |
-| macOS 13+ (Apple Silicon and Intel) | Chinese | [Download macOS Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
-| Windows 11 x64 | English | [Download Windows English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-Windows-x64-en-UNSIGNED-CANARY.msi) |
-| Windows 11 x64 | Chinese | [Download Windows Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/CanvasLearningCenter-0.2.11-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
+| macOS 13+ (Apple Silicon and Intel) | English | [Download macOS English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.16/CanvasLearningCenter-0.2.16-macOS-universal-en-UNSIGNED-CANARY.pkg) |
+| macOS 13+ (Apple Silicon and Intel) | Chinese | [Download macOS Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.16/CanvasLearningCenter-0.2.16-macOS-universal-zh-CN-UNSIGNED-CANARY.pkg) |
+| Windows 11 x64 | English | [Download Windows English](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.16/CanvasLearningCenter-0.2.16-Windows-x64-en-UNSIGNED-CANARY.msi) |
+| Windows 11 x64 | Chinese | [Download Windows Chinese](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.16/CanvasLearningCenter-0.2.16-Windows-x64-zh-CN-UNSIGNED-CANARY.msi) |
 
-[View the complete v0.2.11 release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.11)
+[View the complete v0.2.16 release](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.16)
 · [Installation guide](docs/INSTALLATION.md)
-· [SHA-256 checksums](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.11/SHA256SUMS.txt)
+· [SHA-256 checksums](https://github.com/z-hstudio/canvas-learning-center/releases/download/v0.2.16/SHA256SUMS.txt)
 
-> **Unsigned package warning:** all 0.2.11 installers are explicitly marked
+> **Unsigned package warning:** all 0.2.16 installers are explicitly marked
 > `UNSIGNED-CANARY`. They are not yet signed or notarized by Apple or Microsoft,
 > so Gatekeeper or SmartScreen may show a warning or block installation. Read
 > the installation guide and verify the checksum before continuing.
 
 ## Start here
 
-1. Open the [v0.2.11 Releases page](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.11).
+1. Open the [v0.2.16 Releases page](https://github.com/z-hstudio/canvas-learning-center/releases/tag/v0.2.16).
 2. Download the installer for your operating system and preferred first-launch language.
 3. Follow the [macOS or Windows installation steps](docs/INSTALLATION.md).
 4. Sign in to your own institution's Canvas website and create your own Access Token.
@@ -93,14 +98,14 @@ until the student checks the source and confirms them.
 
 ### Update without finding the installer again
 
-- Version 0.2.11 checks the official release channel on launch and every 24
+- The app checks the official release channel on launch and every 24
   hours while the app remains open.
 - Users can choose whether the matching installer is downloaded and verified in
   the background. This option is off by default.
 - Installation is always manual: the app never runs an installer or changes the
   installed version without the user's operating-system confirmation.
-- Installed 0.2.10 clients can discover 0.2.11, but the one-time 0.2.10 → 0.2.11
-  transition must be installed from this Release page because the old client
+- Installed 0.2.10 clients must download the current installer from this Release
+  page once because the old client
   cannot safely follow GitHub's repository-rename download redirect. Versions
   from 0.2.11 onward use the stable `z-hstudio` update channel.
 - An offline or failed check does not block local learning features.
@@ -119,7 +124,9 @@ until the student checks the source and confirms them.
   course, mark modules complete, send messages, or submit assignments.
 - Your Canvas token is stored in the operating system credential store, not in
   this repository, the local database, a URL, or an analytics service.
-- Learning data stays on your computer. No analytics or tracking SDK is included.
+- Learning data is local by default. Optional companion pairing can send an
+  approved, reduced study snapshot after you enable it; raw files, Canvas tokens,
+  private notes, grades and teacher feedback stay local. No analytics SDK is included.
 - Restricted or unpublished Canvas content is not bypassed.
 - Grades, teacher feedback, quiz answers, and personal submission files are not
   part of the current sync scope.
@@ -132,9 +139,15 @@ password even though this app only uses read-only requests. See the full
 
 - macOS 13 or later: Apple Silicon and Intel
 - Windows 11: x64
-- The current release has been validated primarily with University of Sydney's
-  Canvas environment. Other Canvas institutions may configure APIs and Access
-  Tokens differently and may need additional compatibility work.
+- First select your institution: University of Sydney, University of Technology
+  Sydney (UTS), or another institution's HTTPS Canvas address. Links and account
+  validation then use that institution, not a fixed Sydney address.
+- Sydney and UTS have had real-account read-only sync checks. This is not a
+  guarantee for every course or Canvas school: tokens, API access and permissions
+  remain controlled by each institution.
+- macOS 0.2.16 was installed and checked locally. Windows installers are built
+  and tested in Windows CI; a clean Windows 11 device acceptance test and a
+  separate Intel Mac acceptance test remain outstanding.
 
 See [Known limitations](docs/KNOWN_LIMITATIONS.md) before installing.
 
@@ -173,6 +186,7 @@ Copyright © 2026 ZihengHuang. All rights reserved. See [Terms](TERMS.md).
 ## Documentation
 
 - [Installation and first launch](docs/INSTALLATION.md)
+- [Plain-text installation guide](docs/INSTALLATION.txt)
 - [Canvas Access Token guide](docs/CANVAS_TOKEN.md)
 - [Privacy](docs/PRIVACY.md)
 - [Known limitations](docs/KNOWN_LIMITATIONS.md)

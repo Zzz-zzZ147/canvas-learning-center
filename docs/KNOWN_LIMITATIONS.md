@@ -2,7 +2,7 @@
 
 ## Unsigned packages
 
-Version 0.2.11 is an `UNSIGNED-CANARY`. The macOS package is not Apple-notarized,
+Version 0.2.16 is an `UNSIGNED-CANARY`. The macOS package is not Apple-notarized,
 and the Windows MSI does not have a trusted Microsoft code-signing identity.
 Gatekeeper or SmartScreen may warn or block it.
 
@@ -13,16 +13,23 @@ developer; formal signing is still required to remove this avoidable friction.
 
 ## One-time update transition
 
-Version 0.2.10 can discover 0.2.11, but cannot download it through the old
+Version 0.2.10 can discover updates, but cannot download them through the old
 repository address because its fixed security allowlist rejects GitHub's
-repository-rename redirect. Install 0.2.11 manually from the official Release
+repository-rename redirect. Install the current version manually from the official Release
 page once. Versions from 0.2.11 onward use the stable `z-hstudio` update channel.
 
 ## Institution coverage
 
-The current release has been validated primarily against University of
-Sydney's Canvas environment. Other institutions can change Canvas hostnames,
-API access, Access Token availability, and course permissions.
+The current release includes school selection and real-account read-only checks
+for Sydney and UTS. Other institutions can change Canvas hostnames, API access,
+Access Token availability and course permissions. A configurable address is not
+a promise that every Canvas school is supported.
+
+## Platform acceptance
+
+The macOS 0.2.16 package has been installed and checked locally. Windows builds
+run the test suite and packaging checks in Windows CI. A clean Windows 11 device
+acceptance test and a separate Intel Mac installation test remain outstanding.
 
 ## Canvas permissions
 
@@ -40,6 +47,12 @@ API access, Access Token availability, and course permissions.
 - A learning unit with no usable local source continues to show that its
   knowledge structure has not been generated.
 - Runtime paid-model automation is not enabled in this release.
+- English mode translates the built-in source-linked knowledge pack and app
+  prompts. Personal notes, original files and explicitly revealed original text
+  retain their original language. Custom non-English answers without a matching
+  translation are labelled unavailable for English recall, not silently replaced.
+- The accepted installers retain their pre-publication offline history snapshot.
+  GitHub's release page is authoritative for current publication status.
 
 ## Final authority
 

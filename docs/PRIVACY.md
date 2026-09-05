@@ -31,6 +31,18 @@ The local interface is bound to your own computer. The released app does not
 include a third-party analytics or advertising SDK. External Canvas pages and
 links open through your normal browser.
 
+## Optional companion sync
+
+Companion sync is off until the user pairs and enables it. When enabled, a
+reduced study snapshot can leave the computer for the paired companion service.
+This is separate from Canvas authentication. It excludes Canvas tokens, raw
+course files, local paths, private notes, grades, teacher feedback and unconfirmed
+knowledge drafts. Do not enable pairing if you want desktop-only use.
+
+Update checks contact this project's GitHub release channel and do not send
+Canvas credentials or study content. Automatic installer downloads are optional;
+installation always requires a manual action.
+
 ## User-exported diagnostic bundle
 
 The app keeps bounded structured diagnostic events locally. A diagnostic ZIP is

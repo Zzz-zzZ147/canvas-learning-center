@@ -7,7 +7,7 @@ create and enter their own Canvas Access Token.
 
 The exact wording can vary by institution:
 
-1. Sign in to your institution's official Canvas website in your browser.
+1. Select your institution in the app, then sign in to that institution's official Canvas website in your browser.
 2. Open **Account → Settings**.
 3. Find **Approved Integrations**.
 4. Select **New Access Token**.
@@ -19,6 +19,10 @@ The exact wording can vary by institution:
 Some institutions disable personal Access Tokens. If the button is unavailable,
 the app cannot bypass that policy; contact your institution or report the school
 environment through GitHub Issues without sharing private account information.
+
+A token from UTS cannot authenticate against the University of Sydney's Canvas,
+or vice versa. Check the selected school before replacing a token. A token-created
+notification email confirms creation, not successful connection or course sync.
 
 ## Treat the token like a password
 
